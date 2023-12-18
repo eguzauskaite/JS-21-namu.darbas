@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products adding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="productsContainer"></div>
+ <div class="container">
+    <h1>Pridėti prekę</h1>
+    <form id="addProductForm">  
+        <input type="url" id="productImage" class="image" name="productImage" required="required">
+<label for="imageUrl">image
+     <!-- <img src="http://pienozvaigzdes.lt/resized/705/736/img/p/1/0/9/0/1090.jpg" alt="">  -->
+    <!-- <img src="https://www.zpienas.lt/assets/media/gouda-suriukas_productBigThumbnail.png" alt=""> -->
+</label>
+        <input type="text" id="productName" class="title" name="productName" required>
+      <label for="title">title</label>
+        
+        <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+        <label for="productPrice">price</label>
+        <button type="submit">Add product</button>
+      </form>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

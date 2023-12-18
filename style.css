@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  
+    font-family: Arial, sans-serif;
+    background-color: #fcfbfb;
+    min-height: 100vh;
+    margin: 20px;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  #addProductForm {
+    margin-top: 20px;
+  }
+
+.container {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+   background-color: white;
+   width: 100%;
+   min-height: 100vh;
+   transition: .8s;
+   cursor: pointer;
+   
+}
+label {
+    display: block;
+    position: absolute;
+    font-size: 18px;
+    margin-top: -62px;
+    padding-left: 18px;
+    text-align: left;
+    color: #949292;
+
+}
+input {
+width: 95%;
+height: 42px;
+margin: 10px 5px 28px 5px;
+}
